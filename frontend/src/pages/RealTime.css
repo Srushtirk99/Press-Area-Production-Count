@@ -1,0 +1,125 @@
+/* ===== PAGE WRAPPER ===== */
+.realtime-page {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #0f172a;
+  color: #e5e7eb;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  box-sizing: border-box;
+}
+
+/* ===== BACK BUTTON BAR ===== */
+.top-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-bottom: 15px;
+}
+
+/* ===== BACK BUTTON ===== */
+.back-btn {
+  background: transparent;
+  border: none;
+  color: #38bdf8;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+}
+
+/* ===== HEADER ===== */
+.realtime-page .realtime-header {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #f8fafc;
+}
+
+/* ===== MACHINE GRID ===== */
+.realtime-page .machine-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* ===== MACHINE CARD ===== */
+.realtime-page .machine-panel {
+  width: 340px;
+  background: linear-gradient(180deg, #111827, #020617);
+  border: 3px solid #1e293b;
+  border-radius: 10px;
+  padding: 9px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+}
+
+/* ===== MACHINE HEADER ===== */
+.realtime-page .machine-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1px;
+}
+
+.realtime-page .machine-header h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.realtime-page .status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.realtime-page .running {
+  background: #22c55e;
+}
+
+.realtime-page .idle {
+  background: #facc15;
+}
+
+.realtime-page .stopped {
+  background: #ef4444;
+}
+
+/* ===== KPI GRID ===== */
+.realtime-page .kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 7px;
+  width: 100%;
+  margin: auto;
+}
+
+.realtime-page .kpi-total {
+  grid-column: span 2;
+}
+
+/* ===== KPI BOX ===== */
+.realtime-page .kpi-box {
+  background: #020617;
+  border: 1px solid #1e293b;
+  padding: 6px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 60px;
+  box-sizing: border-box;
+}
+
+.realtime-page .kpi-box label {
+  text-align: left;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.realtime-page .kpi-box span {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 4px;
+}

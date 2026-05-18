@@ -1,0 +1,108 @@
+.machine-logs-page {
+  padding: 20px;
+  background: #020617;
+  min-height: 100vh;
+  color: #e5e7eb;
+  box-sizing: border-box;
+}
+
+.machine-logs-page * {
+  box-sizing: border-box;
+}
+
+/* TOP BAR */
+.machine-logs-top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-bottom: 15px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.machine-logs-page .machine-info h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.machine-logs-page .machine-info span {
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+.machine-logs-back-btn {
+  background: transparent;
+  border: none;
+  color: #38bdf8;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* CHART CARDS */
+.machine-logs-chart-card {
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.machine-logs-chart-card h3 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.machine-logs-chart-wrapper {
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+}
+
+/* LOADING */
+.machine-logs-loading {
+  padding: 24px;
+  color: #94a3b8;
+}
+
+/* TABLET */
+@media screen and (max-width: 768px) {
+  .machine-logs-page {
+    padding: 12px;
+  }
+
+  .machine-logs-top-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .machine-logs-page .machine-info h2 {
+    font-size: 18px;
+  }
+
+  .machine-logs-chart-card {
+    padding: 12px;
+  }
+
+  .machine-logs-chart-card h3 {
+    font-size: 14px;
+  }
+}
+
+/* SMALL MOBILE */
+@media screen and (max-width: 480px) {
+  .machine-logs-page .machine-info h2 {
+    font-size: 16px;
+  }
+
+  .machine-logs-page .machine-info span {
+    font-size: 12px;
+  }
+
+  .machine-logs-chart-card {
+    padding: 10px;
+  }
+}

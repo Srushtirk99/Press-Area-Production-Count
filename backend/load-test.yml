@@ -1,0 +1,14 @@
+config:
+  target: "http://10.4.3.204:5000"
+  phases:
+    - duration: 60
+      arrivalRate: 10
+      name: "Load Test"
+
+scenarios:
+  - name: "Concurrent users hitting dashboard"
+    requests:
+      - get:
+          url: "/api/dashboard"
+          headers:
+            Authorization: "Bearer paste_your_token_here"

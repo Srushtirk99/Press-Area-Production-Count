@@ -1,0 +1,173 @@
+.admin-container {
+  padding: 40px;
+  color: white;
+}
+
+.admin-title {
+  margin-bottom: 30px;
+}
+
+.admin-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.admin-card {
+  background: #0f1c34;
+  border: 1px solid #2a3a5e;
+  border-radius: 10px;
+  padding: 25px;
+  width: 360px;
+}
+
+.user-management{
+width:500px;
+}
+
+.card-title {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.label {
+  color: #9fb3d9;
+}
+
+.value {
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: none;
+}
+
+.add-user-bar{
+display:flex;
+gap:10px;
+margin-bottom:20px;
+}
+
+.add-user-bar input{
+flex:1;
+}
+
+.add-btn{
+background:#2f80ed;
+color:white;
+border:none;
+padding:8px 16px;
+border-radius:5px;
+cursor:pointer;
+}
+
+.add-btn:hover{
+background:#1c5fd1;
+}
+
+.user-list{
+margin-top:10px;
+}
+
+.user-row{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:12px;
+border-bottom:1px solid #2a3a5e;
+}
+
+.user-data{
+display:flex;
+flex-direction:column;
+}
+
+.user-name{
+font-weight:bold;
+}
+
+.user-email{
+font-size:13px;
+color:#9fb3d9;
+}
+
+.user-actions{
+display:flex;
+gap:10px;
+}
+
+.edit-btn{
+background:#f2c94c;
+border:none;
+padding:6px 12px;
+border-radius:4px;
+cursor:pointer;
+}
+
+.delete-btn{
+background:#ff4d4d;
+border:none;
+padding:6px 12px;
+color:white;
+border-radius:4px;
+cursor:pointer;
+}
+
+.change-btn {
+  width: 100%;
+  padding: 10px;
+  background: #2f80ed;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-btn {
+  margin-top: 20px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  background: #444;
+  color: white;
+  cursor: pointer;
+}
+select{
+width:100%;
+padding:8px;
+border-radius:4px;
+border:none;
+margin-bottom:15px;
+}
+
+/* TOP BAR */
+.top-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  border: 1px solid #2a3a5e;
+  border-radius: 8px;
+
+  padding: 10px 14px;
+  margin-bottom: 20px;
+}
+
+/* TOP BACK BUTTON */
+.top-back-btn {
+  background: transparent;
+  border: none;
+  color: #38bdf8;
+  cursor: pointer;
+  font-size: 16px;
+}

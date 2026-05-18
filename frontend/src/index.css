@@ -1,0 +1,18 @@
+/* RESET */
+* {
+  margin: 5;
+  padding: 10;
+  box-sizing: border-box;
+}
+
+/* GLOBAL BACKGROUND */
+body {
+  background: #0f172a;   /* your dark blue */
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* OPTIONAL: smoother UI */
+button {
+  cursor: pointer;
+}
