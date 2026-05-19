@@ -215,8 +215,6 @@ Reports can be generated for any date range:
 
 ## 📝 License
 
-This project is private and proprietary. All rights reserved.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
----
-
-Built with ❤️ for factory floor production monitoring.
+© 2026 Srushtirk99. All rights reserved.
